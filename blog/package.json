@@ -23,7 +23,7 @@
   },
   "homepage": "https://github.com/nguyengialong/nodejs_blog#readme",
   "lint-staged": {
-    "src/**/*.{js,json,scss}": "prettier --write --single-quote --tab-width 4 --trailing-comma all"
+    "src/**/*.{js,json,scss}": "prettier --single-quote --tab-width 4 --trailing-comma all --write"
   },
   "husky": {
     "hooks": {
